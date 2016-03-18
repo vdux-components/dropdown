@@ -2,7 +2,7 @@
   "name": "vdux-dropdown",
   "description": "Stateful wrapper around vdux-ui&#x27;s presentational Dropdown component",
   "repository": "git://github.com/vdux-components/dropdown.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
