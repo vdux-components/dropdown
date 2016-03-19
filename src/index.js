@@ -28,6 +28,7 @@ function render ({props, state, local, children}) {
   const api = {toggle: local(toggle), close: local(close)}
 
   if (props.ref) props.ref(api)
+  if (!props.btn) throw new Error('Forgot to pass required `btn` prop to <Dropdown/>')
 
   return (
     <Dropdown>
